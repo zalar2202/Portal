@@ -5,12 +5,12 @@ WORKDIR /app
 # -------- deps:build (dev deps) --------
 FROM base AS deps-build
 COPY package*.json ./
-RUN npm ci
+RUN npm install
 
 # -------- deps:prod (runtime deps only) --------
 FROM base AS deps-prod
 COPY package*.json ./
-RUN npm ci --omit=dev
+RUN npm install --omit=dev
 
 # -------- builder --------
 FROM base AS builder
