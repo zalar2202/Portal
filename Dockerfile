@@ -41,6 +41,11 @@ COPY --from=builder /app/.next ./.next
 COPY public ./public
 COPY package.json ./
 COPY server.cjs ./server.cjs
+COPY server.js ./server.js
+COPY utils ./utils
+COPY models ./models
+COPY seedAdmin.js ./seedAdmin.js
+COPY seedSalarAdmin.js ./seedSalarAdmin.js
 
 EXPOSE 3000
 CMD ["node", "server.cjs"]
