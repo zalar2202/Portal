@@ -14,6 +14,7 @@ export default function OmTextInput({
                 {label}
             </label>
             <Field
+                id={name}
                 type="text"
                 name={name}
                 className="om-input"

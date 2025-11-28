@@ -24,6 +24,7 @@ export default function OmPasswordInput({ name, label }) {
             </label>
             <div className="om-password-field">
                 <Field
+                    id={name}
                     type={showPassword ? 'text' : 'password'}
                     name={name}
                     className="om-input"
