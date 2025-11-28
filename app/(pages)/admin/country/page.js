@@ -1,4 +1,4 @@
-﻿import CountryManagementPage from '@/templates/admin/CountryManagementPage';
+import CountryManagementPage from '@/templates/admin/CountryManagementPage';
 import { Suspense } from 'react';
 
 export const metadata = {

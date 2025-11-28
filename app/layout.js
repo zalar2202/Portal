@@ -1,4 +1,4 @@
-﻿import '../styles/styles.css';
+import '../styles/styles.css';
 
 import localFont from 'next/font/local';
 import theme from './theme';

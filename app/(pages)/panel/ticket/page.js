@@ -1,4 +1,4 @@
-﻿import ClientTicketsPage from '@/templates/client/ClientTicketsPage';
+import ClientTicketsPage from '@/templates/client/ClientTicketsPage';
 import { Suspense } from 'react';
 
 export const metadata = {

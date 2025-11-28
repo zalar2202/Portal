@@ -1,4 +1,4 @@
-﻿import UserNotificationsPage from '@/templates/admin/UserNotificationsPage';
+import UserNotificationsPage from '@/templates/admin/UserNotificationsPage';
 import { Suspense } from 'react';
 
 export const metadata = {

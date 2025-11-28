@@ -1,4 +1,4 @@
-﻿# MongoDB Local Setup Guide for Windows
+# MongoDB Local Setup Guide for Windows
 
 ## 🚀 Quick Setup (3 Methods)
 

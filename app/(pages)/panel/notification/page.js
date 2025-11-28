@@ -1,4 +1,4 @@
-﻿import ClientNotificationsPage from '@/templates/client/ClientNotificationsPage';
+import ClientNotificationsPage from '@/templates/client/ClientNotificationsPage';
 import { Suspense } from 'react';
 
 export const metadata = {

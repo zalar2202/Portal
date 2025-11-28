@@ -1,4 +1,4 @@
-﻿import UserDashboardPage from '@/templates/admin/UserDashboardPage';
+import UserDashboardPage from '@/templates/admin/UserDashboardPage';
 import { Suspense } from 'react';
 
 export const metadata = {

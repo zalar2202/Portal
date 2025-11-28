@@ -1,4 +1,4 @@
-﻿import ClientDashboardPage from '@/templates/client/ClientDashboardPage';
+import ClientDashboardPage from '@/templates/client/ClientDashboardPage';
 import { Suspense } from 'react';
 
 export const metadata = {

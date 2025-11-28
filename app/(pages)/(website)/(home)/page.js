@@ -1,4 +1,4 @@
-﻿import HomePage from '@/templates/HomePage';
+import HomePage from '@/templates/HomePage';
 import { Suspense } from 'react';
 
 export const metadata = {

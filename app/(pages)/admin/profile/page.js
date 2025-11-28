@@ -1,4 +1,4 @@
-﻿import UserProfilePage from '@/templates/admin/UserProfilePage';
+import UserProfilePage from '@/templates/admin/UserProfilePage';
 import { Suspense } from 'react';
 
 export const metadata = {

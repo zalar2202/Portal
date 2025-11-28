@@ -1,4 +1,4 @@
-﻿import ContractManagementPage from '@/templates/admin/ContractManagementPage';
+import ContractManagementPage from '@/templates/admin/ContractManagementPage';
 import { Suspense } from 'react';
 
 export const metadata = {

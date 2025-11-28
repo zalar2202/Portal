@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import { jwtDecode } from 'jwt-decode';
 import { useEffect, useMemo } from 'react';

@@ -1,4 +1,4 @@
-﻿import ClientContractPage from '@/templates/client/ClientContractPage';
+import ClientContractPage from '@/templates/client/ClientContractPage';
 import { Suspense } from 'react';
 
 export const metadata = {

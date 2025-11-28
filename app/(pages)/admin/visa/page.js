@@ -1,4 +1,4 @@
-﻿import VisaManagementPage from '@/templates/admin/VisaManagementPage';
+import VisaManagementPage from '@/templates/admin/VisaManagementPage';
 import { Suspense } from 'react';
 
 export const metadata = {

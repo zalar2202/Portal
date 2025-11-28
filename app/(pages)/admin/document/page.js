@@ -1,4 +1,4 @@
-﻿import DocumentManagementPage from '@/templates/admin/DocumentManagementPage';
+import DocumentManagementPage from '@/templates/admin/DocumentManagementPage';
 import { Suspense } from 'react';
 
 export const metadata = {

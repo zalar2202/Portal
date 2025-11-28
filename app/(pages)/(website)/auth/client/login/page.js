@@ -1,4 +1,4 @@
-﻿import ClientLoginPage from '@/templates/client/ClientLoginPage';
+import ClientLoginPage from '@/templates/client/ClientLoginPage';
 import { Suspense } from 'react';
 
 export const metadata = {

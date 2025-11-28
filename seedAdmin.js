@@ -1,4 +1,4 @@
-﻿import path from 'path';
+import path from 'path';
 import { fileURLToPath } from 'url';
 import dbConnect from './utils/dbConnect.js';
 import User from './models/User.js';

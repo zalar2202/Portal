@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import ClientLoginForm from '@/components/forms/ClientLoginForm';
 import Typography from '@mui/material/Typography';

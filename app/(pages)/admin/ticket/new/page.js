@@ -1,4 +1,4 @@
-﻿import UserNewTicketPage from '@/templates/admin/UserNewTicketPage';
+import UserNewTicketPage from '@/templates/admin/UserNewTicketPage';
 import { Suspense } from 'react';
 
 export const metadata = {
