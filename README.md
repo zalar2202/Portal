@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+﻿This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Prerequisites
 
@@ -20,10 +20,10 @@ Create a `.env.local` file in the project root:
 
 ```env
 # Local MongoDB
-MONGO_URI=mongodb://localhost:27017/omidar
+MONGO_URI=mongodb://localhost:27017/vista
 
 # OR for MongoDB Atlas
-# MONGO_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/omidar
+# MONGO_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/vista
 ```
 
 ## Getting Started

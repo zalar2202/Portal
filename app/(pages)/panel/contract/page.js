@@ -1,8 +1,8 @@
-import ClientContractPage from '@/templates/client/ClientContractPage';
+﻿import ClientContractPage from '@/templates/client/ClientContractPage';
 import { Suspense } from 'react';
 
 export const metadata = {
-    title: 'امیدار | قراردادها',
+    title: 'ویستا | قراردادها',
 };
 
 export default function ClientContractManagement() {

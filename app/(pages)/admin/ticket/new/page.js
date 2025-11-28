@@ -1,8 +1,8 @@
-import UserNewTicketPage from '@/templates/admin/UserNewTicketPage';
+﻿import UserNewTicketPage from '@/templates/admin/UserNewTicketPage';
 import { Suspense } from 'react';
 
 export const metadata = {
-    title: 'امیدار | تیکت جدید',
+    title: 'ویستا | تیکت جدید',
 };
 
 export default function UserNewTicket() {

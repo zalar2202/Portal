@@ -1,8 +1,8 @@
-import CountryManagementPage from '@/templates/admin/CountryManagementPage';
+﻿import CountryManagementPage from '@/templates/admin/CountryManagementPage';
 import { Suspense } from 'react';
 
 export const metadata = {
-    title: 'امیدار | مدیریت کشورها',
+    title: 'ویستا | مدیریت کشورها',
 };
 
 export default function CountryManagement() {

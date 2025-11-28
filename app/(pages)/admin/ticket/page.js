@@ -1,8 +1,8 @@
-import UserTicketsPage from '@/templates/admin/UserTicketsPage';
+﻿import UserTicketsPage from '@/templates/admin/UserTicketsPage';
 import { Suspense } from 'react';
 
 export const metadata = {
-    title: 'امیدار | تیکت های پشتیبانی',
+    title: 'ویستا | تیکت های پشتیبانی',
 };
 
 export default function UserTickets() {

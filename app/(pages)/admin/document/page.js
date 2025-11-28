@@ -1,8 +1,8 @@
-import DocumentManagementPage from '@/templates/admin/DocumentManagementPage';
+﻿import DocumentManagementPage from '@/templates/admin/DocumentManagementPage';
 import { Suspense } from 'react';
 
 export const metadata = {
-    title: 'امیدار | مدارک و فایل ها',
+    title: 'ویستا | مدارک و فایل ها',
 };
 
 export default function DocumentManagement() {

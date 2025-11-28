@@ -1,8 +1,8 @@
-import ClientDashboardPage from '@/templates/client/ClientDashboardPage';
+﻿import ClientDashboardPage from '@/templates/client/ClientDashboardPage';
 import { Suspense } from 'react';
 
 export const metadata = {
-    title: 'امیدار | پیشخوان کاربری متقاضی',
+    title: 'ویستا | پیشخوان کاربری متقاضی',
 };
 
 export default function ClientDashboard() {

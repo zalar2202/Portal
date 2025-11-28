@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+﻿/* eslint-disable @next/next/no-img-element */
 import { useState } from 'react';
 import Skeleton from '@mui/material/Skeleton';
 
@@ -7,7 +7,7 @@ export default function OmImage({
     height = 50,
     variant = 'rounded',
     name,
-    alt = 'Omidar',
+    alt = 'vista',
 }) {
     const [isLoading, setIsLoading] = useState(true);
 

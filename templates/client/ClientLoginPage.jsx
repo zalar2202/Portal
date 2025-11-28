@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { jwtDecode } from 'jwt-decode';
 import { useEffect, useMemo } from 'react';
@@ -71,7 +71,7 @@ export default function ClientLoginPage() {
                                 component="h1"
                                 gutterBottom
                             >
-                                گروه مهاجرتی امیدار
+                                پرسا گستر ویستا
                             </Typography>
                             <Typography
                                 variant="h4"

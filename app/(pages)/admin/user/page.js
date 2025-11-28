@@ -1,8 +1,8 @@
-import UserManagementPage from '@/templates/admin/UserManagementPage';
+﻿import UserManagementPage from '@/templates/admin/UserManagementPage';
 import { Suspense } from 'react';
 
 export const metadata = {
-    title: 'امیدار | مدیریت افراد مجموعه',
+    title: 'ویستا | مدیریت افراد مجموعه',
 };
 
 export default function UserManagement() {

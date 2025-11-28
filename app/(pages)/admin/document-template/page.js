@@ -1,8 +1,8 @@
-import DocTemplateManagementPage from '@/templates/admin/DocTemplateManagementPage';
+﻿import DocTemplateManagementPage from '@/templates/admin/DocTemplateManagementPage';
 import { Suspense } from 'react';
 
 export const metadata = {
-    title: 'امیدار | نمونه قالب فایل ها',
+    title: 'ویستا | نمونه قالب فایل ها',
 };
 
 export default function DocTemplateManagement() {

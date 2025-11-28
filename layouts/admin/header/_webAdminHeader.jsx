@@ -1,4 +1,4 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 import useCommonHooks from '@/hooks/useCommonHooks';
 import Logo from '@/components/common/Logo';
 import Button from '@mui/material/Button';
@@ -56,13 +56,13 @@ export default function WebAdminHeader(props) {
                             </Link>
                         </li>
                         <li className="menu-item link-item">
-                            <a href="https://omidarmigrate.com/">
-                                وبسایت امیدار
+                            <a href="https://vistamigrate.com/">
+                                وبسایت ویستا
                             </a>
                         </li>
                         <li className="menu-item link-item">
-                            <a href="https://omidarmigrate.com/blog/">
-                                مجله مهاجرت
+                            <a href="https://vistamigrate.com/blog/">
+                                بلاگ
                             </a>
                         </li>
                     </ul>

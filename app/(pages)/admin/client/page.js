@@ -1,8 +1,8 @@
-import ClientManagementPage from '@/templates/admin/ClientManagementPage';
+﻿import ClientManagementPage from '@/templates/admin/ClientManagementPage';
 import { Suspense } from 'react';
 
 export const metadata = {
-    title: 'امیدار | مدیریت متقاضیان',
+    title: 'ویستا | مدیریت متقاضیان',
 };
 
 export default function ClientManagement() {

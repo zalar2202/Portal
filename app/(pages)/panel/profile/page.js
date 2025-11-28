@@ -1,8 +1,8 @@
-import ClientProfilePage from '@/templates/client/ClientProfilePage';
+﻿import ClientProfilePage from '@/templates/client/ClientProfilePage';
 import { Suspense } from 'react';
 
 export const metadata = {
-    title: 'امیدار | پروفایل کاربری',
+    title: 'ویستا | پروفایل کاربری',
 };
 
 export default function ClientProfile() {

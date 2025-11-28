@@ -1,8 +1,8 @@
-import UserProfilePage from '@/templates/admin/UserProfilePage';
+﻿import UserProfilePage from '@/templates/admin/UserProfilePage';
 import { Suspense } from 'react';
 
 export const metadata = {
-    title: 'امیدار | پروفایل کاربری',
+    title: 'ویستا | پروفایل کاربری',
 };
 
 export default function UserProfile() {

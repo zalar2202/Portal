@@ -1,4 +1,4 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 import Logo from '@/components/common/Logo';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
@@ -93,7 +93,7 @@ export default function MobileAdminHeader(props) {
                                     variant="h1"
                                     className="mobile-header-logo-text"
                                 >
-                                    امیدار
+                                    ویستا
                                 </Typography>
                             </div>
                             <div className="mobile-header-util">
@@ -315,13 +315,13 @@ export default function MobileAdminHeader(props) {
                                         </Link>
                                     </li>
                                     <li className="menu-item link-item">
-                                        <a href="https://omidarmigrate.com/">
-                                            وبسایت امیدار
+                                        <a href="https://vistamigrate.com/">
+                                            وبسایت ویستا
                                         </a>
                                     </li>
                                     <li className="menu-item link-item">
-                                        <a href="https://omidarmigrate.com/blog/">
-                                            مجله مهاجرت
+                                        <a href="https://vistamigrate.com/blog/">
+                                            بلاگ
                                         </a>
                                     </li>
                                     <li className="menu-item button-item">

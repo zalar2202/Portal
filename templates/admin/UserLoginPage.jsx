@@ -72,7 +72,7 @@ export default function UserLoginPage() {
                 <div className="auth-box-wrapper">
                     <div className="auth-intro">
                         <Typography variant="h1" component="h1" gutterBottom>
-                            گروه مهاجرتی امیدار
+                            پرسا گستر ویستا
                         </Typography>
                         <Typography variant="h4" component="h4" gutterBottom>
                             ورود اعضا

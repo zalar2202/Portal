@@ -1,8 +1,8 @@
-import VisaManagementPage from '@/templates/admin/VisaManagementPage';
+﻿import VisaManagementPage from '@/templates/admin/VisaManagementPage';
 import { Suspense } from 'react';
 
 export const metadata = {
-    title: 'امیدار | ویزا ها',
+    title: 'ویستا | ویزا ها',
 };
 
 export default function VisaManagement() {

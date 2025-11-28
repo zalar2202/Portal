@@ -1,4 +1,4 @@
-# MongoDB Local Setup Guide for Windows
+﻿# MongoDB Local Setup Guide for Windows
 
 ## 🚀 Quick Setup (3 Methods)
 
@@ -88,17 +88,17 @@ Type `exit` to quit mongosh.
 
 ### **Create/Update `.env.local` file**
 
-In your project root (`D:\Work\Projects\Omidar\omidar`), create or update `.env.local`:
+In your project root (`D:\Work\Projects\vista\vista`), create or update `.env.local`:
 
 ```env
 # Local MongoDB Connection
-MONGO_URI=mongodb://localhost:27017/omidar
+MONGO_URI=mongodb://localhost:27017/vista
 
 # Optional: Add authentication if you set it up
-# MONGO_URI=mongodb://username:password@localhost:27017/omidar
+# MONGO_URI=mongodb://username:password@localhost:27017/vista
 ```
 
-**Database name**: `omidar` (or choose your own name)
+**Database name**: `vista` (or choose your own name)
 
 ---
 
@@ -117,7 +117,7 @@ If you have existing data on MongoDB Atlas that you want to migrate:
 
 2. **Import to Local:**
     - Connect to `localhost:27017` in Compass
-    - Create new database `omidar`
+    - Create new database `vista`
     - For each collection: ADD DATA → Import File → Select your JSON files
 
 ### **Method 2: Using mongodump/mongorestore (Command Line)**
@@ -127,7 +127,7 @@ If you have existing data on MongoDB Atlas that you want to migrate:
 mongodump --uri="your-atlas-connection-string" --out=./backup
 
 # Import to Local
-mongorestore --uri="mongodb://localhost:27017/omidar" ./backup
+mongorestore --uri="mongodb://localhost:27017/vista" ./backup
 ```
 
 ### **Method 3: Start Fresh**
@@ -155,7 +155,7 @@ Just start with an empty local database. Your application will create collection
 4. **Use MongoDB Compass:**
     - Open Compass
     - Connect to `mongodb://localhost:27017`
-    - You should see your `omidar` database appear when your app creates data
+    - You should see your `vista` database appear when your app creates data
 
 ---
 
@@ -178,7 +178,7 @@ Start-Service -Name MongoDB
 
 1. Verify MongoDB is running
 2. Check firewall isn't blocking port 27017
-3. Try the explicit IP: `mongodb://127.0.0.1:27017/omidar`
+3. Try the explicit IP: `mongodb://127.0.0.1:27017/vista`
 
 ### **Can't Connect from Application**
 
@@ -206,7 +206,7 @@ netstat -ano | findstr :27017
 show dbs
 
 // Use your database
-use omidar
+use vista
 
 // Show collections
 show collections

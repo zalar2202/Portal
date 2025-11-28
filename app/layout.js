@@ -1,4 +1,4 @@
-import '../styles/styles.css';
+﻿import '../styles/styles.css';
 
 import localFont from 'next/font/local';
 import theme from './theme';
@@ -24,7 +24,7 @@ const vazirBold = localFont({
 });
 
 export const metadata = {
-    title: 'Omidar Migration',
+    title: 'vista Migration',
     description: 'CRM PANEL',
 };
 

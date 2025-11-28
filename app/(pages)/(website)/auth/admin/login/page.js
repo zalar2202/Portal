@@ -1,8 +1,8 @@
-import UserLoginPage from '@/templates/admin/UserLoginPage';
+﻿import UserLoginPage from '@/templates/admin/UserLoginPage';
 import { Suspense } from 'react';
 
 export const metadata = {
-    title: 'امیدار | ورود کاربران به پرتال',
+    title: 'ویستا | ورود کاربران به پرتال',
 };
 
 export default function UserLogin() {

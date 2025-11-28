@@ -1,4 +1,4 @@
-import path from 'path';
+﻿import path from 'path';
 import { fileURLToPath } from 'url';
 import dbConnect from './utils/dbConnect.js';
 import User from './models/User.js';
@@ -32,7 +32,7 @@ async function seedAdmin() {
             lastName: 'user',
             nationalId: '0323260624',
             username: 'admin',
-            email: 'admin@omidar.com',
+            email: 'admin@vista.com',
             mobile: '09123456789',
             role: 'admin',
             status: 'active',
